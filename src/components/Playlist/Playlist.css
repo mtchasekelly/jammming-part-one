@@ -1,0 +1,33 @@
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    padding: 5rem;
+}
+  
+.Playlist input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #6f6f6f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+}
+
+.SavePlaylist {
+    color: #fff;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: rgb(122, 12, 226);
+    box-shadow: 0px 0px 8px #ddd;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    width: 6.5rem;    
+}

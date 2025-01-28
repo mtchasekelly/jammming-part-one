@@ -1,12 +1,16 @@
 import React from 'react';
 
-import './Playlist';
+import '../Playlist/Playlist.css';
 
 function Playlist() {
 
     return (
 
-        <Playlist />
+        <div className="Playlist">
+            <input placeholder="Create Playlist..." />
+            <button className="SavePlaylist">Save</button>
+        </div>
+  
 
     )
 
