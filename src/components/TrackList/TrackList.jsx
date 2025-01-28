@@ -1,12 +1,14 @@
 import React from 'react';
 
-import './TrackList';
+import '../TrackList/TrackList.css';
 
 function TrackList() {
 
     return (
 
-        <TrackList />
+        <div className="TrackList">
+            {/* <!-- Add a map method that renders a set of Track components  --> */}
+        </div>
 
     )
 
