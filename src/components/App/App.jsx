@@ -12,9 +12,12 @@ function App() {
     <div>
 
       <h1>Ja<span>mmm</span>ing<span>.</span></h1>
-      <SearchBar />
-      <SearchResults />
-      <Playlist />
+        <SearchBar />
+
+      <div className="Results-Playlist">
+        <SearchResults />
+        <Playlist />
+      </div>
 
     </div>
 

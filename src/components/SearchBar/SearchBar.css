@@ -20,6 +20,7 @@
     border-radius: 5px;
     background-color: blueviolet;
     border: rgb(122, 12, 226);
+    box-shadow: 0px 0px 8px #ddd;
     font-size: 1rem;
     padding: 20px;
     text-align: center;

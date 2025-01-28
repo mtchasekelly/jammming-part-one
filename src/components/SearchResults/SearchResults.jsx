@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './SearchResults';
+import '../SearchResults/SearchResults.css';
 
 function SearchResults() {
 
     return (
 
         <div className="SearchResults">
-        <h2>Results</h2>
+        <h2>Search Results</h2>
          
         </div>
         

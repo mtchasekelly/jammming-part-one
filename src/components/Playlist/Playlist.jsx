@@ -8,7 +8,7 @@ function Playlist() {
 
         <div className="Playlist">
             <input placeholder="Create Playlist..." />
-            <button className="SavePlaylist">Save</button>
+            <button className="SaveButton">Save</button>
         </div>
   
 
