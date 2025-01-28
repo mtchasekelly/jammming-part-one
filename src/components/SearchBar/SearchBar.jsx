@@ -1,12 +1,15 @@
 import React from 'react';
 
-import './SearchBar';
+import '../SearchBar/SearchBar.css';
 
 function SearchBar() {
 
     return (
 
-        <SearchBar />
+        <div className="SearchBar">
+            <input placeholder="Enter a Song Title" />
+            <button className="SearchButton">Search</button>
+        </div>
 
     )
 

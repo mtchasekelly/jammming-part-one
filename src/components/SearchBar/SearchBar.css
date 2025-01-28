@@ -1,0 +1,28 @@
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+  
+.SearchBar input {
+    width: 200px;
+    padding: .88rem 0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 2.22rem;
+    text-align: center;
+    font-size: 1rem;
+}
+  
+.SearchButton {
+    color: #fff;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: rgb(122, 12, 226);
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    width: 6.5rem;    
+}
+  
