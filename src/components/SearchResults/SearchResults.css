@@ -1,0 +1,7 @@
+.SearchResults {
+    background-color: blueviolet;
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    padding: 5rem;
+}

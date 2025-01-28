@@ -6,7 +6,11 @@ function SearchResults() {
 
     return (
 
-        <SearchResults />
+        <div className="SearchResults">
+        <h2>Results</h2>
+         
+        </div>
+        
 
     )
 
