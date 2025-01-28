@@ -1,0 +1,22 @@
+.Track {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid fuchsia;
+}
+  
+.Track-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+  
+.Track-Info h3 {
+    margin-bottom: .22rem;
+}
+  
+.Track-Info p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
