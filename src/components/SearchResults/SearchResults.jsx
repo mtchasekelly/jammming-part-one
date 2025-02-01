@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
+import "../SearchResults/SearchResults.css";
+import TrackList from "../TrackList/TrackList";
 
-import '../SearchResults/SearchResults.css';
+function SearchResults(props) {
 
-function SearchResults() {
+  return (
 
-    return (
+    <div className="SearchResults">
 
-        <div className="SearchResults">
-        <h2>Search Results</h2>
-         
-        </div>
-        
+      <h2>Results</h2>
+      <TrackList tracks={props.searchResults} onAdd={props.onAdd} />
 
-    )
-
-}
+    </div>
+    
+  );
+};
 
 export default SearchResults;
