@@ -1,25 +1,15 @@
 .Playlist {
-    width: 50%;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     overflow-y: scroll;
     padding: .88rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #DEDEDE;
+    opacity: 0.8;
     padding: 5rem;
-}
-
-.SaveButton {
-    color: #fff;
-    border-radius: 5px;
-    background-color: blueviolet;
-    border: rgb(122, 12, 226);
-    box-shadow: 0px 0px 8px #ddd;
-    font-size: 1rem;
-    padding: 20px;
-    text-align: center;
-    width: 6.5rem;    
+    border: 1.75px solid #000;
 }
 
 .Playlist input {
@@ -27,28 +17,39 @@
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     font-family: 'Poppins', sans-serif;
     font-size: 1.55rem;
-    color: #fff;
+    color: #000;
     padding: 0.7rem 0;
     margin-bottom: 2.22rem;
 }
 
 ::placeholder {
-    color: #fff;
+    color: gray;
+    font-style: italic;
     font-weight: 700;
     text-align: center;
 }
 
-/*
-.Playlist input {
-    width: 200px;
-    padding: .88rem 0;
-    border: 2px solid #000;
+.SaveButton {
+    width: 100px;
+    padding: 10px;
+    background-color: #65B6DC;
+    border: 1px solid #000;
     border-radius: 5px;
-    margin-bottom: 2.22rem;
-    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 5px;
     font-size: 1rem;
+    font-weight: 500;
+    margin: 20px;
 }
-*/
+  
+.SaveButton:hover {
+    cursor: pointer;
+}
+   
+.SaveButton:active {
+    box-shadow: 0px 0px;
+}
+
