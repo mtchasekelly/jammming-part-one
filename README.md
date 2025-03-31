@@ -20,7 +20,7 @@ Then click Save to create a playlist.
 
 ## How to Use
 
-This app can be accessed by visiting http://localhost:5173 or via Netlify by visiting static-jammming.netlify.app
+This app can be accessed by visiting http://localhost:5173 or via Netlify by visiting ' static-jammming.netlify.app '
 
 ## Technologies
 
