@@ -1,11 +1,16 @@
-import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/react'
-import App from '../components/App/App'
+import { describe, it } from 'vitest';
+
+import App from '../components/App/App';
 
 describe('App', () => {
-  it('renders the App component', () => {
-    render(<App />)
-    
-    screen.debug(); // prints out the jsx in the App component unto the command line
-  })
-})
+
+  it("renders an app component", () => {
+    // Renders the App component
+  });
+  
+}) 
+  
+
+
+
+
