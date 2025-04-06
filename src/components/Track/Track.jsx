@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import "../Track/Track.css";
 
 function Track(props) {
-
+  
   const addTrack = useCallback(
     (event) => {
       props.onAdd(props.track);
@@ -37,6 +37,10 @@ function Track(props) {
     }
   }
 
+  
+  if (!props.track) {
+    return <div className="Track">No Track Aavailable.</div>;
+  }
 
   return (
 
@@ -49,23 +53,10 @@ function Track(props) {
 
       </div>
 
-
-           
-   
-
-
-
-
-
-
-
-
-
-
-
       {renderAction()}
 
     </div>
+
   );
 };
 
